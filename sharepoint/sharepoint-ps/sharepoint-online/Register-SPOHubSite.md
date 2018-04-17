@@ -56,6 +56,8 @@ Accept wildcard characters: False
 
 ## NOTES
 
+You will be prompted with [Principals[#]] to designate entities (one per line) that are allowed to associate sites they administer to the Hub site. When you are finished, respond to the current prompt by pressing the Enter key. If you do not provide any principals, any site administration may associate their site to the hub site. 
+
 If the site doesn’t exist, this cmdlet returns a “File not found” error.
 
 If the site is already a hub site, this cmdlet returns a "This site is already a HubSite" error.
